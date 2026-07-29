@@ -22,8 +22,11 @@ The following files are involved:
 - Output: Tables and examples in `docs/API.md`.
 
 ### Risks & unknowns
-- The Pydantic schemas or route parameters could change in future commits. We must keep documentation in sync.
+- If developers change `ProfileCreate` in `api/schemas/profile.py`, the documentation in `docs/API.md` will not match the code.
+- If developers change `create_profile_endpoint` in `api/routes/profiles.py`, the documentation will not match the code.
 
 ### Edge cases
-- `POST /profiles` uses `multipart/form-data` with a file payload.
-- `POST /reviews` uses `application/json` with a JSON payload.
+- Users do not need to send `resume_file` in `api/routes/profiles.py`. The documentation must show what happens when users omit this file.
+- The endpoint `create_profile_endpoint` in `api/routes/profiles.py` rejects file types that are not PDF or Markdown. The documentation must explain this rule.
+- The field `profile_id` in `api/schemas/review.py` must be a UUID. The documentation must show this format.
+
