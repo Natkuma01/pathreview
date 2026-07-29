@@ -17,3 +17,17 @@ I chose this Tier 1 issue to start with because it provides a guided entry point
 **Setup confirmation:** [x] App runs locally at localhost:5173
 
 **Cohort ledger:** [ ] Issue added to cohort ledger
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [https://github.com/Natkuma01/pathreview/commit/558a2259393087c0f771103317c799848642090c](https://github.com/Natkuma01/pathreview/commit/558a2259393087c0f771103317c799848642090c)
+
+**Reproduction summary:**
+We compared the API code to `docs/API.md`. The documentation did not show the request schemas for profile and review endpoints.
+
+**PLAN.md link:** [https://github.com/Natkuma01/pathreview/blob/docs/api-request-schemas/PLAN.md](https://github.com/Natkuma01/pathreview/blob/docs/api-request-schemas/PLAN.md)
+
+**Walkthrough video (recommended):** [Omitted]
+
+**Blockers or questions:**
+None.
