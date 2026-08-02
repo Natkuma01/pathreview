@@ -49,7 +49,7 @@ None.
 
 ### Check-in 2 (end of week)
 
-**PR link:** https://github.com/ascherj/pathreview/pull/202
+**PR link:** https://github.com/ascherj/pathreview/pull/581
 
 **Branch:** docs/89-api-request-schemas
 
