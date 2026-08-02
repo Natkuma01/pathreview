@@ -31,3 +31,35 @@ We compared the API code to `docs/API.md`. The documentation did not show the re
 
 **Blockers or questions:**
 None.
+
+## Week 9 - Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+We checked the routes in `api/routes/profiles.py` and `api/routes/reviews.py`. We identified the missing request body schemas. We added documentation tables and payload examples for `POST /profiles` and `POST /reviews` to `docs/API.md`.
+
+**Next steps:**
+We will write unit tests to validate the schemas. We will also run our test suite to ensure everything remains stable.
+
+**Blockers:**
+None.
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** https://github.com/ascherj/pathreview/pull/202
+
+**Branch:** docs/api-request-schemas
+
+**What you built:**
+We documented the request body schemas for both profile and review creation in `docs/API.md`. We also wrote unit tests to validate these schemas.
+
+**Tests added or updated:**
+We created a new test file `tests/unit/test_api_schemas.py`. It tests validation constraints for `ProfileCreate` and `ReviewCreate` models.
+
+**Self-review confirmation:** [x] make check passes  [x] make test-unit passes
+
+**Draft PR feedback received from:** none
+
