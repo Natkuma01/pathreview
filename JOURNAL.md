@@ -12,7 +12,7 @@ The API reference documentation in `docs/API.md` currently documents the respons
 **Selection reasoning:**
 I chose this Tier 1 issue to start with because it provides a guided entry point to inspect the FastAPI schemas (`ProfileCreate` and `ReviewCreate`) and route handlers. It is a scoped fit that allows me to build confidence with the codebase layout and project setup steps before tackling deeper logic changes.
 
-**Branch name:** docs/api-request-schemas
+**Branch name:** docs/89-api-request-schemas
 
 **Setup confirmation:** [x] App runs locally at localhost:5173
 
@@ -51,7 +51,7 @@ None.
 
 **PR link:** https://github.com/ascherj/pathreview/pull/202
 
-**Branch:** docs/api-request-schemas
+**Branch:** docs/89-api-request-schemas
 
 **What you built:**
 We documented the request body schemas for both profile and review creation in `docs/API.md`. We also wrote unit tests to validate these schemas.
