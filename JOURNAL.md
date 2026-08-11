@@ -63,3 +63,33 @@ We created a new test file `tests/unit/test_api_schemas.py`. It tests validation
 
 **Draft PR feedback received from:** none
 
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [x] No — still awaiting review
+
+**Summary of feedback:**
+No review came in by the end of the week, so I'm moving forward with my reflection!
+
+**How you responded:**
+
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+Figuring out exactly where to put the tests for the schemas in the existing test structure was a bit tricky. I had to understand how the project organizes unit tests versus integration tests. Ultimately, I had to make sure my new file `test_api_schemas.py` fit perfectly into their established directory conventions.
+
+**What did you learn about working in a large codebase?**
+I learned that reading existing code and matching its style is absolutely critical. When updating the API docs in `docs/API.md`, I had to make sure my new tables and examples looked exactly like the surrounding documentation. This ensures that the documentation feels cohesive and doesn't stick out as a separate addition.
+
+**How did AI tools help — and where did they fall short?**
+AI tools were incredibly helpful for generating the exact markdown tables for the schemas and stubbing out the initial unit tests. However, they fell short when it came to understanding the nuances of the exact file structure and where things should be placed. I still had to manually review the project layout to ensure my tests went into the right directory under `tests/unit/`.
+
+**What would you do differently if you started over?**
+If I started over, I would probably spend more time initially looking at how other similar API endpoints were documented. I rushed a bit before jumping straight into writing the schemas for `POST /profiles`. Taking that extra time upfront would have definitely saved me some back-and-forth on formatting and structure later on.
+
+**What are you most proud of from this module?**
+I'm really proud of successfully adding comprehensive tests alongside the documentation. It felt great to go beyond just updating the `docs/API.md` file. By writing unit tests to validate the `ProfileCreate` and `ReviewCreate` models, I helped ensure they will stay accurate in the future!
